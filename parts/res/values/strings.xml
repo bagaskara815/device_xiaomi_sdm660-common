@@ -20,7 +20,7 @@
     <string name="dirac_summary">Optimize audio quality</string>
     <string name="dirac_headset_title">Choose headphones type</string>
     <string name="dirac_preset_title">Choose a preset</string>
-	<string name="dirac_hifi_enable_title"> Enable Hi-fi</string>
+    <string name="dirac_hifi_enable_title"> Enable Hi-Fi</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Default</string>
