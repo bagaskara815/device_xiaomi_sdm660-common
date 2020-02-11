@@ -20,7 +20,6 @@
     <string name="dirac_summary">Optimize audio quality</string>
     <string name="dirac_headset_title">Choose headphones type</string>
     <string name="dirac_preset_title">Choose a preset</string>
-    <string name="dirac_hifi_enable_title"> Enable Hi-Fi</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Default</string>
@@ -58,10 +57,6 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
-	
-	<!-- HiFi -->
-	<string name="dirac_hifi_title">Hi-Fi</string>
-    <string name="dirac_hifi_summary">Decrease noise and Distortion and increase audio quality</string>
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Mi sound</string>
