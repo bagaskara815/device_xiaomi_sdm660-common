@@ -40,6 +40,9 @@ COMMON_PATH := device/xiaomi/sdm660-common
 # Inherit properties
 $(call inherit-product, $(COMMON_PATH)/common_prop.mk)
 
+# QCOM Targets
+-include $(COMMON_PATH)/qcom_target.mk
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
@@ -84,15 +87,15 @@ PRODUCT_COPY_FILES += \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 # ANT+
-PRODUCT_PACKAGES += \
-    AntHalService \
-    antradio_app \
-    com.dsi.ant.antradio_library \
-    libantradio
+#PRODUCT_PACKAGES += \
+#    AntHalService \
+#    antradio_app \
+#    com.dsi.ant.antradio_library \
+#    libantradio
 
 # ANT Permission
-PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+#PRODUCT_COPY_FILES += \
+#    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
 
 # AuthSecret
 PRODUCT_PACKAGES += \
