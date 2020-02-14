@@ -240,6 +240,9 @@ BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES := hardware/qcom-caf/wlan
+
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
