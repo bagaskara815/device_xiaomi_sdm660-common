@@ -173,7 +173,6 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -245,7 +244,6 @@ PRODUCT_PACKAGES += \
 
 # IFAA JAR
 PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -549,4 +547,3 @@ PRODUCT_BOOT_JARS += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
-   XiaomiParts

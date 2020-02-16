@@ -94,7 +94,7 @@ HEALTHD_USE_BATTERY_INFO := true
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 11.0.0
+#TARGET_KERNEL_CLANG_VERSION := 11.0.0
 
 # CNE and DPM
 BOARD_USES_QCNE := true
@@ -266,3 +266,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 -include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/display
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/media
