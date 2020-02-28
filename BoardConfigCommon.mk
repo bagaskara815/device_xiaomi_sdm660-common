@@ -160,6 +160,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_VERSION := 4.4
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
