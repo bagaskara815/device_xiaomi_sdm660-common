@@ -1,5 +1,5 @@
 #Build FP to be picked by both system and vendor
-BUILD_FINGERPRINT := "google/flame/flame:10/QQ1D.200205.002/6084393:user/release-keys"
+#BUILD_FINGERPRINT := "google/crosshatch/crosshatch:10/QQ1A.200205.002/6084386:user/release-keys"
 
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
