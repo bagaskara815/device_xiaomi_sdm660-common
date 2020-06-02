@@ -602,12 +602,6 @@ service vendor.ipacm /system/vendor/bin/ipacm
     disabled
     writepid /dev/cpuset/system-background/tasks
 
-service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class early_hal
-    user system
-    group system wakelock
-    capabilities BLOCK_SUSPEND
-
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class main
     user system
