@@ -799,7 +799,7 @@
         PackageManager.FEATURE_FREEFORM_WINDOW_MANAGEMENT feature to your device specification.
         The duplication is necessary, because this information is used before the features are
         available to the system.-->
-    <bool name="config_freeformWindowManagement">true</bool>
+    <bool name="config_freeformWindowManagement">false</bool>
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
