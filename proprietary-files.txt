@@ -122,6 +122,7 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6c
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|cbf94b0e8de6a10c35d1d2e0d9537cad20b16f80
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71644784c8f73573380004f1c69cf18b1e57964b
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|10bddb86ecd1c7e0b0d49fef80bc4ded29a05ce1
+vendor/lib/liba2dpoffload.so|440f208d7c9737cc885ec80925f80c37d6f9e227
 vendor/lib/libbt-hidlclient.so|826a5101e2c36d7877bc924b53e22cd00bec6dd6
 vendor/lib/libbtnv.so|a1b994bac9b746f51036fc829310cec4f773c621
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5d204b6e003932069782774dbae4f5f209848870
