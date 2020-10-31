@@ -25,6 +25,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product-if-exists, build/target/product/embedded.mk)
+$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-4096-dalvik-heap.mk)
 
 # Enable updating of APEXes
 ifeq ($(ENABLE_APEX), true)
