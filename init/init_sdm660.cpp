@@ -141,4 +141,5 @@ void vendor_load_properties()
     // fingerprint
     property_override("ro.build.description", "lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys");
+    property_override("ro.system_ext.build.fingerprint", "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys");
 }
