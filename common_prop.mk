@@ -143,6 +143,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.media.codec2=2
 
+# Dex2oat
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.renderer=skiavk \
