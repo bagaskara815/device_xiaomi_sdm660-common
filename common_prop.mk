@@ -157,7 +157,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.renderer=skiagl \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     debug.sf.hw=1 \
     debug.sf.disable_backpressure=0 \
     debug.sf.early_app_phase_offset_ns=1500000 \
