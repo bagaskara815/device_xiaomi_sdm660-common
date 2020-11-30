@@ -549,7 +549,11 @@ BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Shims
 PRODUCT_PACKAGES += \
-    camera.sdm660_shim
+    camera.sdm660_shim \
+    libcutils_shim \
+    libaudioclient_shim \
+    libhwui_shim \
+    libinput_shim
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
@@ -558,10 +562,6 @@ PRODUCT_HOST_PACKAGES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
-
-# Shims
-PRODUCT_PACKAGES += \
-    libcutils_shim
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
