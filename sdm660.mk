@@ -535,9 +535,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleDeviceConfigOverlay
 
-# Soong
+# Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH)
+    $(COMMON_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Shims
 PRODUCT_PACKAGES += \
