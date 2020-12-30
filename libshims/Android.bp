@@ -74,8 +74,3 @@ cc_library {
 
     clang: true,
 }
-
-cc_library_shared {
-    name: "libshim_wfdservice",
-    srcs: ["wfdservice_shim.cpp"],   
-}

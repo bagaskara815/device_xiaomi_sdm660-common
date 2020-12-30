@@ -557,8 +557,7 @@ PRODUCT_PACKAGES += \
     libcutils_shim \
     libaudioclient_shim \
     libhwui_shim \
-    libinput_shim \
-    libshim_wfdservice
+    libinput_shim
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
