@@ -160,7 +160,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=1500000 \
     debug.cpurend.vsync=true \
     debug.hwui.use_buffer_age=false \
-    persist.debug.wfd.enable=1 \
     persist.hwc.enable_vds=1 \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
@@ -254,7 +253,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # QCOM
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.timed.enable=true \
     persist.vendor.cne.feature=1 \
     persist.vendor.dpm.feature=1 \
     persist.vendor.dpm.nsrm.bkg.evt=3955 \
