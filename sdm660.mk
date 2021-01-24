@@ -215,7 +215,7 @@ PRODUCT_PACKAGES += \
 
 # DeviceDoze
 PRODUCT_PACKAGES += \
-    DeviceDoze
+#    DeviceDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -605,8 +605,22 @@ PRODUCT_BOOT_JARS += \
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-   DeviceSettings
+#   DeviceSettings
 
 # iorap
 PRODUCT_PACKAGES += \
     iorap-app-startup-runner
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    init.gpuboost.rc \
+    init.gpuboost.sh \
+    init.cpuboost.rc \
+    init.cpuboost.sh \
+    init.parallax.rc \
+    init.parallax.sh \
+    init.spectrum.rc \
+    init.spectrum.sh \
+    init.camera.rc \
+    init.camera.sh

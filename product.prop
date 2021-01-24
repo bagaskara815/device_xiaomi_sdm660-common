@@ -83,5 +83,14 @@ ro.build.selinux=1
 #Storaged
 ro.storaged.event.interval=99999
 
+# Xiaomi Parts
+cpuboost.support=1
+gpuboost.support=1
+tcp.support=1
+lkm.support=1
+cpucore.support=1
+spectrum.support=1
+persist.spectrum.kernel=perf+
+
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
