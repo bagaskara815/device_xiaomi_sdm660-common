@@ -139,7 +139,7 @@ void vendor_load_properties()
   }
   
     // fingerprint
-    property_override("ro.build.description", "redfin-user 11 RQ1A.210105.003 7005429 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
-    property_override("ro.system_ext.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
+    property_override("ro.build.description", "redfin-user 11 RQ1A.210205.004 7038034 release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
+    property_override("ro.system_ext.build.fingerprint", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
 }
