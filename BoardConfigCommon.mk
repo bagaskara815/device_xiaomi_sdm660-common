@@ -95,8 +95,9 @@ TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
 
 # Board
-PRODUCT_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := sdm660
+TARGET_USES_QCOM_BSP := false
 
 # Build Rules
 BUILD_BROKEN_DUP_RULES := true
@@ -265,3 +266,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 -include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/display
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/media
