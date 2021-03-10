@@ -38,6 +38,9 @@ ro.opa.eligible_device=true
 ro.setupwizard.rotation_locked=true
 ro.config.bt_sco_vol_steps=30
 
+# IORAP
+ro.iorapd.enable=true
+
 # LMKD
 ro.lmk.log_stats=true
 ro.lmk.use_psi=false
