@@ -606,3 +606,7 @@ PRODUCT_BOOT_JARS += \
 # DeviceSettings
 PRODUCT_PACKAGES += \
    DeviceSettings
+
+# iorap
+PRODUCT_PACKAGES += \
+    iorap-app-startup-runner
