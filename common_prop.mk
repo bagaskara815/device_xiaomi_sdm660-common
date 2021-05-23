@@ -156,7 +156,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.renderer=skiavk \
+    debug.hwui.renderer=skiagl \
     debug.sf.latch_unsignaled=1 \
     debug.sf.hw=1 \
     debug.sf.disable_backpressure=0 \
