@@ -85,3 +85,7 @@ ro.storaged.event.interval=99999
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# WFD
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true

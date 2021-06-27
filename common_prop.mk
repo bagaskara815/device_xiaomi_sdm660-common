@@ -169,7 +169,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     vendor.display.disable_skip_validate=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
-    vendor.display.enable_default_color_mode=0
+    vendor.display.enable_default_color_mode=0 \
+    debug.gralloc.enable_fb_ubwc=1
 
 # The default sf phase offset is set to 6ms, to avoid it be included into next
 # vsync threshold, set high fps early sf and next vsync threshold phase offset
