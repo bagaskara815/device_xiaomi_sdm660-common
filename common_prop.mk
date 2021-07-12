@@ -289,12 +289,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
     ro.surface_flinger.vsync_event_phase_offset_ns=4000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=8000000 \
-    debug.sdm.support_writeback=0 \
-    ro.surface_flinger.use_smart_90_for_video=true \
-    ro.surface_flinger.set_display_power_timer_ms=10000 \
-    ro.surface_flinger.set_touch_timer_ms=5000 \
-    ro.surface_flinger.set_idle_timer_ms=9000 \
-    ro.surface_flinger.wcg_composition_dataspace=143261696
+    debug.sdm.support_writeback=0 
 
 # System restart
 PRODUCT_PROPERTY_OVERRIDES += \
