@@ -115,6 +115,7 @@ HEALTHD_USE_BATTERY_INFO := true
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := r383902b1
 
 # CNE and DPM
 BOARD_USES_QCNE := true
@@ -226,6 +227,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 PROTOBUF_SUPPORTED := true
 
 # SELinux
+SELINUX_IGNORE_NEVERALLOWS=true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
@@ -263,3 +265,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 -include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sdm660/display
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sdm660/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sdm660/media
