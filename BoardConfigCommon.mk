@@ -229,6 +229,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 PROTOBUF_SUPPORTED := true
 
 # SELinux
+SELINUX_IGNORE_NEVERALLOWS=true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
@@ -269,8 +270,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 -include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
-
-
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/display
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/audio
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/media
